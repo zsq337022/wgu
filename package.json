@@ -1,0 +1,24 @@
+{
+  "name": "wgu",
+  "version": "1.0.0",
+  "description": "changshiqi creat npm project is window global utils.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zsq337022/wgu.git"
+  },
+  "keywords": [
+    "window",
+    "global",
+    "utils"
+  ],
+  "author": "changshiqi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zsq337022/wgu/issues"
+  },
+  "homepage": "https://github.com/zsq337022/wgu#readme"
+}
