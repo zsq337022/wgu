@@ -2,14 +2,16 @@
   "name": "wgu",
   "version": "1.0.0",
   "description": "changshiqi creat npm project is window global utils.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "rollup --config",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zsq337022/wgu.git"
   },
+  "files": ["dist", "src"],
   "keywords": [
     "window",
     "global",
@@ -20,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/zsq337022/wgu/issues"
   },
-  "homepage": "https://github.com/zsq337022/wgu#readme"
+  "homepage": "https://github.com/zsq337022/wgu#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup": "^2.75.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "typescript": "^4.7.2"
+  }
 }
